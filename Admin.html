@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <link rel="stylesheet" href="style.css">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <script src="scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Site IEBS</title>
+</head>
+<body>
+ <video class="videofundo" autoplay loop muted playsinline>
+        <source src="imagesIEBS/video-ilustrativo.mp4" type="video/mp4">
+       </video> 
+    <div class="Nav-Container">
+       <img src="imagesIEBS/logoceto.png" alt="LogoIEBS" class="Logo">
+       <h1 class="Nome">Igreja Evangelica Bom Samaritano</h1>
+       <nav class="Nav-Links">
+
+          <ul class="Nav-drop">
+            <li class="dropdown-container">
+            <a href="#">Nossa Igreja</a>
+           <ul class="dropdown-menu">
+             <li><a href="#">Quem somos</a></li>
+             <li><a href="#">O que cremos</a></li>
+             <li><a href="#">Nossa Liderança</a></li>   
+           </ul> 
+        </li>
+
+          </ul>
+
+            <li><a href="#Agenda">Agenda</a></li>
+            <li><a href="#Videos">Cultos</a></li>
+            <li><a href="#">Contribua</a></li>
+            <li><a href="#">Contato</a></li>
+       
+
+       </nav>
+    </div>
+
+    <section class="Main">
+           <video class="video-background" autoplay loop muted playsinline>
+            <source src="imagesIEBS/video-ilustrativo.mp4" type="video/mp4"> 
+           </video>
+           <div class="Conteudo-video">
+             <h1>Bem-vindo à Igreja Bom Samaritano</h1>
+             <p>Um lugar de fé e comunidade.</p>
+           </div>
+           <div class="Button">
+            <a href="https://maps.app.goo.gl/W6zRMaYiGcGcAEY67" target="_blank">🗺️ Encontre-Nos</a>
+            <a href="#Videos"> ▶️ Assista Nossos Cultos</a>
+           </div>
+    </section>
+
+    <section id="Agenda" class="sec-container">
+      <div class="Agenda">
+           <h1 class="Agenda1">Agenda</h1>
+      </div>
+
+      <div class="images">
+      <a href="#"><img src="Agenda/AgendaCelebra.png" alt="Agenda de celebração" class="img-celebra"></a>
+      <a href="#"><img src="Agenda/AgendaOração.png" alt="Agenda de Oração"class="img-oracao"></a>
+      <a href="#"><img src="Agenda/AgendaEstudo.png" alt="Agenda de estudo biblico" class="img-estudo"></a>
+      <a href="#"><img src="Agenda/AgendaKids.png" alt="Agenda das Crianças" class="img-kids"></a>
+      </div>
+    </section>
+
+
+    <section id="Videos">
+
+     <div class="Culto-Text">
+        <h1>Assista Nossos Cultos</h1>
+     </div>
+
+    <div class="video-principal-container" id="video-principal-container">
+    </div>
+
+      <div class="outros-videos">
+        <a href="https://www.youtube.com/@IEBSPaulista/videos" target="_blank">
+          <h2 class="text-video">Inscreva-se no Youtube</h2>
+         </a>
+      </div>
+
+    <div class="adicionar-video-container">
+      <h3>Adicionar mais vídeos à lista</h3>
+      <button id="btn-adicionar-video" class="btn-adicionar">+</button>
+    </div>
+
+    <div class="lista-videos" id="lista-videos-container">
+    </div>
+
+    </section>
+  
+
+    
+</body>
+</html>
